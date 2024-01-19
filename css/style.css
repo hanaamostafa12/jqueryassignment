@@ -1,0 +1,152 @@
+#home{
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(14, 12, 11, 0.866)), url('../images/events-heavenly-header.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 89vh;
+ position: relative;
+    
+}
+
+.header {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: white; 
+  }
+
+.header h1{
+  font-size: 3.5rem;
+
+}
+#navbar{
+    position: fixed;
+    left: 0;
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    width: 240px;
+    padding-top:50px ;
+  background-color: black;
+ display: none;
+}
+#home ul li {
+        padding: 20px 20px 20px 10px;
+        font-size: 26px;   
+}
+#home ul li a{
+    transition: all 1s;
+}
+#home ul li a:hover{
+    color: rgba(117, 35, 19, 0.866);
+}
+.sidebar-open{
+    font-size: 21px;
+    padding-left: 10px;
+    align-self: center;
+    cursor: pointer;
+    
+}
+.sidebar-close{
+    right: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.sidebar-close:hover{
+    color:rgba(117, 35, 19, 0.867);
+
+}
+ul{
+    list-style: none;
+}
+a{
+   text-decoration: none;
+   color: aliceblue;
+}
+
+#toggle{
+    text-align: center;
+    margin: 80px;
+}
+
+h3{
+    background-color: #752313dd;
+}
+
+.inner{
+    background-color: #cccccc;
+    color: black;
+    display: none;
+}
+#counter{
+    margin-top: 100px;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(126, 44, 6, 0.886)), url('../images/invitation-2508607__340.jpg');
+
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.box-day,.box-hour,.box-mintue,.box-second{
+    border: 2px solid rgb(245, 246, 252);
+    padding: 60px 0px ;
+    font-size: 30px;
+    color: white;
+}
+
+#contact{
+    margin: 150px 0;
+
+}
+.container h2{
+    font-weight: 700;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.row h4{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+.info p{
+    padding-left: 10px;
+    width: 90%;
+}
+.info ul li .hello,#charCount span{
+    color:  rgb(208 42 10 / 87%);
+   
+}
+.Icons i{
+    border: 1px solid rgb(85, 85, 84);
+    color: rgb(85, 85, 84);
+    font-size: 15px;
+    padding: 10px;
+}
+.Icons i:hover {
+    cursor: pointer;
+    background-color:  rgba(117, 35, 19, 0.866);
+    color: rgb(240, 240, 239);
+}
+
+.btn{
+    color:black;
+    background-color: 874032;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: rgba(117, 35, 19, 0.866);
+}
+
+#contact input, #contact textarea,.btn {
+    border-radius: 0%;
+}
